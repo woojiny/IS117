@@ -91,7 +91,7 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-body{
+#body{
     background-color: white;
 }
 #wrapper{
@@ -101,17 +101,20 @@ body{
     margin-right: auto;
     background-color: white;
 }
-#wrapper img{
-    alignment-adjust: 
+#primary_links a{
+    color:white;
 }
 #primary_links li{
     display: inline;
+    margin-left: 140px;
+}
+#primary_links li.first{
+    margin-left: -100px;
 }
 #primary_links{
     background-color: #339966;
     height: 72px;
     line-height: 72px;
-    text-aligh: center;
 }
 #primary_links ul{
     margin-top: 0px;
@@ -122,19 +125,57 @@ body{
 }
 #content h2{
     text-align: center;
-    font-size: 24px;
+    font-size: 36px;
+    font-family: "Myriad Pro";
+    color: 5d5d5d;
 }
 #content h3{
     text-align: center;
-    font-size: 13px;
+    font-size: 16px;
+    font-family: "Myriad Pro";
     color: #8f8f8f;
 }
 #content h4{
     text-align: center;
-    font-size: 12px;
+    font-size: 14px;
+    font-family: "Myriad Pro";
     color: #3f8252;
 }
-
+#content iframe{
+    align-content: center;
+}
+#likeus{
+    width: 980px;
+    height: 52px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #445989;
+}
+#likeus h5{
+    color: white;
+    margin-left: auto;
+}
+#box1{
+    position: relative;
+    float:left;
+    width:520px;
+    left: 140px;
+}
+#box1 h6{
+    color: #2c2c2c;
+}
+#box2{
+    position: relative;
+    float:left;
+    width:520px;
+    left: 140px;
+}
+#box3{
+    position: relative;
+    float: left;
+    left: 140px;
+    clear:both;
+}
 
 
 

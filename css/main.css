@@ -96,25 +96,27 @@ textarea {
 }
 #wrapper{
     width: 980px;
-    height: 85px;
+    height: 180px;
     margin-left: auto;
     margin-right: auto;
-    background-color: white;
+}
+#wrapper h2{
+    margin-left: -100px;
 }
 #primary_links a{
     color:white;
 }
 #primary_links li{
     display: inline;
-    margin-left: 140px;
+    margin-left: 100px;
 }
 #primary_links li.first{
     margin-left: -100px;
 }
 #primary_links{
-    background-color: #339966;
-    height: 72px;
-    line-height: 72px;
+    background-color: #4a758c;
+    height: 60px;
+    line-height: 60px;
 }
 #primary_links ul{
     margin-top: 0px;
@@ -122,6 +124,16 @@ textarea {
 }
 #branding{
     height: 85px;
+}
+#content{
+    width: 980px;
+    height: 85px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}
+#content img{
+    margin-left: 100px;
 }
 #content h2{
     text-align: center;
@@ -144,36 +156,39 @@ textarea {
 #content iframe{
     align-content: center;
 }
-#likeus{
+#link{
     width: 980px;
-    height: 52px;
+    height: 49px;
     margin-left: auto;
     margin-right: auto;
-    background-color: #445989;
+    background-color: white;
 }
-#likeus h5{
+#link img{
+    margin-left: 50px;
+}
+#link h5{
     color: white;
     margin-left: auto;
 }
+
 #box1{
     position: relative;
     float:left;
-    width:520px;
-    left: 140px;
+    width:300px;
 }
 #box1 h6{
     color: #2c2c2c;
 }
 #box2{
     position: relative;
-    float:left;
-    width:520px;
-    left: 140px;
+    float:right;
+    width:300px;
+    
 }
 #box3{
     position: relative;
     float: left;
-    left: 140px;
+    width:980px;
     clear:both;
 }
 
